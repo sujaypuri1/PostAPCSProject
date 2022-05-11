@@ -1,6 +1,6 @@
 # Choose Your Own Adventure
 
-## Proposed by Ethan Hu, Sonja Larson, Catherine Liu
+## Proposed by Ethan Hu, Sonja Larson, Catherine Liu, Sujay Puri
 
 
 - [ ] General description of the goal or purpose. What are you trying to make happen or solve? Feel free to design projects which utilize content from other courses (simulations, for example), address and analyze real daata and problems (the environment, anyone?), or have other useful impacts.
@@ -20,6 +20,8 @@ There would be a main file to play through the game which would call parts of ot
 
 
 The program would be using a graphic or some other form of graphic/imported photo file (depending on interest) for each branch of the story as the screen would display the graphic/image as well as a text part of the story before taking user input to determine the next choice.
+
+The different paths can be determined by a class with methods that lead you to the next path by assigning a variable to a value in an array when the method is called. The variable would adjust it's actions and reactions to the user based on what it's value is in the array. This way, if one needs to go back or readjust, there is always a method that can set you to the correct spot. You can use conditional statements to determine whether the user is sufficient to move to certain paths or even for certain paths to be visible until later in the story.
 
 
 - [ ] Division of labor: who will do what in this project? Is there enough required to justify the time and number of people? This will be the sole task which you will be engaged in during class time, but there is minimal expectation for work outside of class (unless you are not meeting your goals).
